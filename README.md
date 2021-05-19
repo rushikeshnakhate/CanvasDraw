@@ -10,17 +10,66 @@ Scope
 
 
 
-INSTALLATION:
+**INSTALLATION:**
 
-1.	Directory structure -
-	CanvasDraw
-		-src
-			-main
-				- Main.cpp
-			-test 
-				-TestMain.cpp
-		-thirdparty
-		-CMakefile 
+1.	Directory structure 
+
+└───CanvasDraw
+    ├───src
+    │   ├───main
+    │   │   ├───canvaspage
+    │   │   │   └───impl
+    │   │   ├───client
+    │   │   ├───common
+    │   │   │   └───impl
+    │   │   ├───menu
+    │   │   │   └───impl
+    │   │   ├───processor
+    │   │   │   └───impl
+    │   │   ├───resource
+    │   │   └───shape
+    │   │       └───impl
+    │   └───test
+    │       ├───feature
+    │       │   ├───bdd
+    │       │   └───tdd
+    │       ├───menu
+    │       ├───processor
+    │       ├───resource
+    │       └───shape
+    └───thirdparty
+        ├───ci
+        ├───docs
+        │   ├───assets
+        │   │   └───css
+        │   ├───reference
+        │   ├───_data
+        │   ├───_layouts
+        │   └───_sass
+        ├───googlemock
+        │   ├───cmake
+        │   ├───docs
+        │   ├───include
+        │   │   └───gmock
+        │   │       └───internal
+        │   │           └───custom
+        │   ├───scripts
+        │   │   └───generator
+        │   │       └───cpp
+        │   ├───src
+        │   └───test
+        └───googletest
+            ├───cmake
+            ├───docs
+            ├───include
+            │   └───gtest
+            │       └───internal
+            │           └───custom
+            ├───samples
+            ├───scripts
+            │   └───test
+            ├───src
+            └───test
 
 2.	a.DownLoad the dolder 
 	b.uncompress it 
@@ -33,9 +82,7 @@ INSTALLATION:
 	
 4.  Build on Linux 
 	a. cmake CMakefile.txt
-	//output as below
 	"""
-	
 	-- The C compiler identification is GNU 7.5.0
 	-- The CXX compiler identification is GNU 7.5.0
 	-- Check for working C compiler: /usr/bin/cc
@@ -63,8 +110,9 @@ INSTALLATION:
 	-- Configuring done
 	-- Generating done
 	-- Build files have been written to: /home/rushi/CanvasDraw
-	
 	"""
+	
+	
   b. make 
   
 		Scanning dependencies of target gtest
