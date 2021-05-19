@@ -1,4 +1,4 @@
-Scope
+**Scope**
 1.	There is duplicate code and it need refcatoring  
 2.	Current application does not use configuration, Config file can be used to enable/disable specific shape.
 3.  Application does not support for bdd feature ,I have just added a sample feature file.
@@ -13,7 +13,7 @@ Scope
 **INSTALLATION:**
 
 1.	Directory structure 
-
+`"""
 └───CanvasDraw
     ├───src
     │   ├───main
@@ -70,7 +70,7 @@ Scope
             │   └───test
             ├───src
             └───test
-
+`"""
 2.	a.DownLoad the dolder 
 	b.uncompress it 
 	
