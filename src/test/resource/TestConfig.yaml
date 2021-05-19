@@ -1,9 +1,9 @@
 shapes:
   canvas:
-    enable : true
+    enable: true
   line:
     enable: true
   rectangle:
     enable: true
   fillArea:
-     enable: true
+    enable: true
